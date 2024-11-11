@@ -9,17 +9,17 @@ import Pricing from '../components/Pricing';
 import Testimonies from '../components/Testimonies';
 import Action from '../components/Action';
 import Footer from '../components/Footer';
-
+import Layout from "../components/Layout";
 const Home: NextPage = () => {
   return (
     <>
       <Head>
         <title>Uno</title>
         <meta content="Example" name="description" />
-        <meta property="og:url" content="example.com" />
-        <meta property="og:description" content="Example" />
-        <meta property="og:title" content="Example" />
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://uno-noip.vercel.app/#" />
+        <meta property="og:description" content="Financial SASS" />
+        <meta property="og:title" content="Uno" />
+        <meta property="og:author" content="Kilian Tavares" />
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <div className="h-full leading-normal text-gray-600">

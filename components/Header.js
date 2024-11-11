@@ -45,7 +45,7 @@ export default function Header() {
             <ul className="flex flex-wrap items-center justify-end flex-grow gap-2 pr-4 space-x-2 md:gap-6 md:space-x-6">
               <li>
                 <a
-                  href="#features"
+                  href="/#features"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Features
@@ -53,7 +53,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#demo"
+                  href="/#demo"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Demo
@@ -61,15 +61,15 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/Login"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
-                  Sign in
+                  Log in
                 </a>
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/SignUp"
                   className="bg-white rounded-full bg-opacity-40 px-4 text-lg text-white md:text-black shadow-sm transition-colors duration-75 group gap-[0.25em] inline-flex items-center py-1.5 hover:cursor-pointer hover:bg-opacity-90"
                 >
                   Sign up
