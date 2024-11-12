@@ -9,7 +9,7 @@ import Pricing from '../components/Pricing';
 import Testimonies from '../components/Testimonies';
 import Action from '../components/Action';
 import Footer from '../components/Footer';
-import Layout from "../components/Layout";
+
 const Home: NextPage = () => {
   return (
     <>

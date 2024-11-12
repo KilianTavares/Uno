@@ -63,11 +63,11 @@ export default function SignUp () {
                        <hr className="w-full bg-gray-400  " />
                    </div>
                    <div>
-                       <lable className="text-sm font-medium leading-none text-gray-800">Email</lable>
+                       <label className="text-sm font-medium leading-none text-gray-800">Email</label>
                        <input aria-label="enter email adress" role="input" type="email" className="bg-gray-200 border rounded focus:outline-none text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2" />
                    </div>
                    <div className="mt-6  w-full">
-                       <lable className="text-sm font-medium leading-none text-gray-800">Password</lable>
+                       <label className="text-sm font-medium leading-none text-gray-800">Password</label>
                        <div className="relative flex items-center justify-center">
                            <input aria-label="enter Password" role="input" type="password" className="bg-gray-200 border rounded focus:outline-none text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2" />
                            <div className="absolute right-0 mt-2 mr-3 cursor-pointer">
